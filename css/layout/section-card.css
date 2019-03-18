@@ -1,0 +1,38 @@
+.cards {
+  height: 490px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.cards-body {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 359px;
+  height: 389px;
+  text-align: center;
+}
+.card:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.card .arrow {
+  width: 20px;
+  fill: #0185cc;
+  margin-top: 25px;
+}
+.card h1 {
+  margin: 0 auto;
+  width: 280px;
+  margin-top:46px;
+  color:#fff;
+}
+
+.card:first-child > h1, .card:last-child > h1 {
+  color: #00bcf2;
+}
+

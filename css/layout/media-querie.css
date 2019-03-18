@@ -1,0 +1,225 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media only screen and (max-width : 576px) {
+  /*nav part menu*/
+  nav {
+    left:5%;
+  }
+  .drop-menu {
+    z-index: 2;
+  }
+  /*search part tester mon eligibilité*/
+  .search {
+    width: 500px;
+    height: 250px;
+    margin-left: -250px;
+  }
+  .search form {
+    width: 400px;
+    height: fit-content;
+    margin-top: 25px;
+    text-align: center;
+    display: initial;
+  }
+  .search input {
+    margin:10px 0px;
+  }
+  /*part article*/
+  section.actu {
+    height: 1550px;
+  }
+  .actu-body {
+    width: 517px;
+    margin-left: -259px;
+  }
+  /*part qui sommes nous*/
+  .identity {
+    height: 641px;
+    background-position-x: -347px;
+  }
+  .identity-body {
+    width: 500px;
+  }
+  .identity-body h1, .identity-body p {
+    width: 330px;
+  }
+  /*part cards*/
+  .cards {
+    height: auto;
+  }
+  .cards-body {
+    width: 500px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 10px 0px;
+  }
+  /*part footer*/
+  footer {
+    height: 100%;
+  }
+  .footer-body {
+    width: 500px;
+    font-size: 14px;
+  }
+  .media {
+    padding: 28px 0px 0px 0px;
+  }
+  footer form {
+    padding: 10px 0px 12px 0px;
+  }
+  .menu-footer {
+    position:initial;
+    width: 500px;
+    padding: 0px 0px 20px 0px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width : 576px) and (max-width : 768px) {
+    /*nav part menu*/
+  nav {
+    left:5%;
+  }
+  .drop-menu {
+    z-index: 2;
+  }
+  /*search part tester mon eligibilité*/
+  .search {
+    width: 500px;
+    height: 250px;
+    margin-left: -250px;
+  }
+  .search form {
+    width: 400px;
+    height: fit-content;
+    margin-top: 25px;
+    text-align: center;
+    display: initial;
+  }
+  .search input {
+    margin:10px 0px;
+  }
+  /*part article*/
+  section.actu {
+    height: 1550px;
+  }
+  .actu-body {
+    width: 517px;
+    margin-left: -259px;
+  }
+  /*part qui sommes nous*/
+  .identity {
+    height: 641px;
+    background-position-x: -280px;
+  }
+  .identity-body {
+    width: 620px;
+  }
+  .identity-body h1, .identity-body p {
+    width: 330px;
+  }
+  /*part cards*/
+  .cards {
+    height: auto;
+  }
+  .cards-body {
+    width: 500px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 10px 0px;
+  }
+  /*part footer*/
+  .footer-body {
+    width: 500px;
+    font-size: 14px;
+  }
+  .media {
+    padding: 28px 0px 0px 0px;
+  }
+  footer form {
+    padding: 10px 0px 12px 0px;
+  }
+  .menu-footer {
+    position:initial;
+    width: 500px;
+    padding: 0px 0px 20px 0px;
+  }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+    /*nav part menu*/
+  nav {
+    left:5%;
+  }
+  .drop-menu {
+    z-index: 2;
+  }
+  /*search part tester mon eligibilité*/
+  .search {
+    width: 800px;
+    height: 250px;
+    margin-left: -400px;
+  }
+  .search form {
+    width: 700px;
+    height: fit-content;
+    margin-top: 25px;
+    text-align: center;
+    display: initial;
+  }
+  .search input {
+    margin:25px 0px;
+  }
+  /*part article*/
+  section.actu {
+    height: 925px;
+  }
+  .actu-body {
+    width: 800px;
+    margin-left: -400px;
+  }
+  /*part qui sommes nous*/
+  .identity {
+    height: 530px;
+    background-position-x: -180px;
+  }
+  .identity-body {
+    width: 800px;
+  }
+  .identity-body h1, .identity-body p {
+    width: 500px;
+  }
+  /*part cards*/
+  .cards {
+    height: auto;
+  }
+  .cards-body {
+    width: 800px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 10px 0px;
+  }
+  /*part footer*/
+  .footer-body {
+    width: 800px;
+    font-size: 14px;
+  }
+  .media {
+    padding: 28px 0px 0px 0px;
+  }
+  footer form {
+    padding: 10px 0px 12px 0px;
+  }
+  .menu-footer {
+  width: 500px;
+}
+
+}
+

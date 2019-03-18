@@ -1,0 +1,26 @@
+.identity {
+  background-image: url(../images/qui-sommes-nous.png);
+  background-size: cover;
+  height: 436px;
+  width: 100vw;
+  background-position: left;
+  display: flex;
+  align-items: center;
+}
+.identity-body {
+  width: 1100px;
+  margin: 0 auto;s
+}
+.identity-body h1, .identity-body p {
+  width: 650px;
+  float: right;
+}
+.identity-body h1 {
+  color: #fff;
+}
+
+.identity-body p {
+  color: #fff;
+  margin: 15px 0px;
+  line-height: 22px;
+}

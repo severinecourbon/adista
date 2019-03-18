@@ -1,0 +1,35 @@
+@import url(./layout/header.css);
+@import url(./layout/nav.css);
+@import url(./layout/section-article.css);
+@import url(./layout/section-qui-sommes-nous.css);
+@import url(./layout/section-card.css);
+@import url(./layout/footer.css);
+@import url(./layout/media-querie.css);
+
+* {
+  font-family: 'Lato', sans-serif;
+  /*font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;*/
+  margin:0px;
+  padding:0px;
+}
+
+h1 {
+  font-family: "Agency FB", sans-serif;
+  color: #4e4e4e;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+
+h2 {
+  font-family: "Agency FB", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
